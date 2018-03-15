@@ -5,18 +5,22 @@ import Button from "./Button";
 const CardWrapper = styled.div`
   border-radius: 5px;
   box-shadow: 3px 3px 3px 3px #ccc;
-  border: 1px solid black;
-  padding: 40px;
-  max-width: 300px;
+  border: 0px;
+  padding: 20px;
+  max-width: 200px;
   background-color: #EFEBE9;
 `;
 
 const Title = styled.h1`
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   color: #e74c3c;
+  text-align: center;
 `;
 
 const Image = styled.img`
+  border-radius: 5px;
+  padding: 20px;
+  background-color: #E0E0E0;
   max-width: 100%
 `;
 
